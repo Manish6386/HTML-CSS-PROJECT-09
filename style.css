@@ -10,8 +10,8 @@ body{
      }
 
  .background{
-     background-color:rgb(50,56,75) ;
-    opacity: 0.8;
+     background-color:rgb(50,56,75);
+    opacity: 0.7;
  }
  .container{
   /* border: solid red; */
@@ -24,14 +24,14 @@ body{
     justify-content: space-between;
     font-weight: 100;
     margin-top:0px;
-    margin-left: 140px;
+    margin-left: 50px;
     margin-right: 100px;
 
 }
  .list{
     margin-top: 50px;
     justify-content: space-around;
-
+  margin-left: 50px;
 
  }
    .list-item{
@@ -39,20 +39,19 @@ body{
     list-style: none;
     display: inline;
     justify-content: space-around;
-    font-size: 1.5rem;
-    font-weight: 200;
-    margin: 1rem;
+    /* font-size: 1.5rem; */
+    margin: 2.5rem;
    margin-top: 20px;
    }
     .button-small
     {
         height: 3rem;
-        width: 7rem;
+        width: 9rem;
         background-color: rgb(235, 47, 14);
         color: white;
         font-weight: 900;
         font-size: 1.5rem;
-        margin-right: 50px;
+        margin-right:2px;
         margin-top: 50px;
 
     }
@@ -72,6 +71,7 @@ body{
         
     }
     .hero-heading{
+      font-family:Arial, Helvetica, sans-serif;
         justify-content: center;
         text-align: center;
        line-height: 130px;
@@ -88,12 +88,13 @@ body{
     
        .button-large{
         background-color: rgb(248, 42, 5);
-        color: aliceblue;
+        color: #f2f7fb;
         height: 5rem;
-        width: 15rem;
-        /* margin-top: 40px; */
+        width: 17rem;
         margin-bottom: 100px;
         font-weight: 900;
         font-size: 20px;
-        margin-bottom: 25px;}
+        margin-bottom: 40px;
+    }
+    
     
